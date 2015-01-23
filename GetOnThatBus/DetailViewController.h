@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  GetOnThatBus
 //
 //  Created by Gabriel Borri de Azevedo on 1/20/15.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BusStop.h"
 
-@interface ViewController : UIViewController
+@interface DetailViewController : UIViewController
 
+@property BusStop *busStop;
 
 @end
-

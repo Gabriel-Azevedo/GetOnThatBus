@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2385555B1A703E35005FEC31 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2385555A1A703E35005FEC31 /* CoreLocation.framework */; };
+		238E5B231A6F265A003DD90E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238E5B221A6F265A003DD90E /* DetailViewController.m */; };
+		238E5B261A6F375A003DD90E /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 238E5B251A6F375A003DD90E /* CustomAnnotation.m */; };
 		23FEDBB11A6F0003008EE28D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FEDBB01A6F0003008EE28D /* main.m */; };
 		23FEDBB41A6F0003008EE28D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FEDBB31A6F0003008EE28D /* AppDelegate.m */; };
-		23FEDBB71A6F0003008EE28D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FEDBB61A6F0003008EE28D /* ViewController.m */; };
 		23FEDBBA1A6F0003008EE28D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FEDBB81A6F0003008EE28D /* Main.storyboard */; };
 		23FEDBBC1A6F0003008EE28D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FEDBBB1A6F0003008EE28D /* Images.xcassets */; };
 		23FEDBBF1A6F0003008EE28D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23FEDBBD1A6F0003008EE28D /* LaunchScreen.xib */; };
 		23FEDBCB1A6F0003008EE28D /* GetOnThatBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FEDBCA1A6F0003008EE28D /* GetOnThatBusTests.m */; };
+		23FEDBD71A6F06B4008EE28D /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FEDBD61A6F06B4008EE28D /* MapViewController.m */; };
+		23FEDBD91A6F06DD008EE28D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23FEDBD81A6F06DD008EE28D /* MapKit.framework */; };
+		23FEDBDC1A6F086C008EE28D /* BusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FEDBDB1A6F086C008EE28D /* BusStop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +32,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2385555A1A703E35005FEC31 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		238E5B211A6F265A003DD90E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		238E5B221A6F265A003DD90E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		238E5B241A6F375A003DD90E /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		238E5B251A6F375A003DD90E /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
 		23FEDBAB1A6F0003008EE28D /* GetOnThatBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetOnThatBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23FEDBAF1A6F0003008EE28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23FEDBB01A6F0003008EE28D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23FEDBB21A6F0003008EE28D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23FEDBB31A6F0003008EE28D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		23FEDBB51A6F0003008EE28D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		23FEDBB61A6F0003008EE28D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		23FEDBB91A6F0003008EE28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23FEDBBB1A6F0003008EE28D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		23FEDBBE1A6F0003008EE28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		23FEDBC41A6F0003008EE28D /* GetOnThatBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOnThatBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23FEDBC91A6F0003008EE28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23FEDBCA1A6F0003008EE28D /* GetOnThatBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetOnThatBusTests.m; sourceTree = "<group>"; };
+		23FEDBD51A6F06B4008EE28D /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		23FEDBD61A6F06B4008EE28D /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		23FEDBD81A6F06DD008EE28D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		23FEDBDA1A6F086C008EE28D /* BusStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStop.h; sourceTree = "<group>"; };
+		23FEDBDB1A6F086C008EE28D /* BusStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2385555B1A703E35005FEC31 /* CoreLocation.framework in Frameworks */,
+				23FEDBD91A6F06DD008EE28D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +75,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		238E5B271A6F7CF2003DD90E /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				23FEDBDA1A6F086C008EE28D /* BusStop.h */,
+				23FEDBDB1A6F086C008EE28D /* BusStop.m */,
+				238E5B241A6F375A003DD90E /* CustomAnnotation.h */,
+				238E5B251A6F375A003DD90E /* CustomAnnotation.m */,
+			);
+			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		238E5B281A6F7D1D003DD90E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				23FEDBD51A6F06B4008EE28D /* MapViewController.h */,
+				23FEDBD61A6F06B4008EE28D /* MapViewController.m */,
+				238E5B211A6F265A003DD90E /* DetailViewController.h */,
+				238E5B221A6F265A003DD90E /* DetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		23FEDBA21A6F0003008EE28D = {
 			isa = PBXGroup;
 			children = (
+				2385555A1A703E35005FEC31 /* CoreLocation.framework */,
+				23FEDBD81A6F06DD008EE28D /* MapKit.framework */,
 				23FEDBAD1A6F0003008EE28D /* GetOnThatBus */,
 				23FEDBC71A6F0003008EE28D /* GetOnThatBusTests */,
 				23FEDBAC1A6F0003008EE28D /* Products */,
@@ -81,10 +120,8 @@
 		23FEDBAD1A6F0003008EE28D /* GetOnThatBus */ = {
 			isa = PBXGroup;
 			children = (
-				23FEDBB21A6F0003008EE28D /* AppDelegate.h */,
-				23FEDBB31A6F0003008EE28D /* AppDelegate.m */,
-				23FEDBB51A6F0003008EE28D /* ViewController.h */,
-				23FEDBB61A6F0003008EE28D /* ViewController.m */,
+				238E5B271A6F7CF2003DD90E /* Custom Classes */,
+				238E5B281A6F7D1D003DD90E /* View Controllers */,
 				23FEDBB81A6F0003008EE28D /* Main.storyboard */,
 				23FEDBBB1A6F0003008EE28D /* Images.xcassets */,
 				23FEDBBD1A6F0003008EE28D /* LaunchScreen.xib */,
@@ -96,6 +133,8 @@
 		23FEDBAE1A6F0003008EE28D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				23FEDBB21A6F0003008EE28D /* AppDelegate.h */,
+				23FEDBB31A6F0003008EE28D /* AppDelegate.m */,
 				23FEDBAF1A6F0003008EE28D /* Info.plist */,
 				23FEDBB01A6F0003008EE28D /* main.m */,
 			);
@@ -219,7 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23FEDBB71A6F0003008EE28D /* ViewController.m in Sources */,
+				238E5B231A6F265A003DD90E /* DetailViewController.m in Sources */,
+				23FEDBDC1A6F086C008EE28D /* BusStop.m in Sources */,
+				23FEDBD71A6F06B4008EE28D /* MapViewController.m in Sources */,
+				238E5B261A6F375A003DD90E /* CustomAnnotation.m in Sources */,
 				23FEDBB41A6F0003008EE28D /* AppDelegate.m in Sources */,
 				23FEDBB11A6F0003008EE28D /* main.m in Sources */,
 			);
@@ -412,6 +454,7 @@
 				23FEDBD01A6F0003008EE28D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23FEDBD11A6F0003008EE28D /* Build configuration list for PBXNativeTarget "GetOnThatBusTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +463,7 @@
 				23FEDBD31A6F0003008EE28D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
